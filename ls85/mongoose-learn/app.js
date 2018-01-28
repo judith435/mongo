@@ -79,7 +79,7 @@ app.put('/member/:id', function(req,res) {
            }
         },
         {
-            upsert: true      // [options] if this document has no title create one
+            insert: true      // [options] if this document has no title create one
         },
         function(err,newMember) {
             if (err) { console.log('error occured');

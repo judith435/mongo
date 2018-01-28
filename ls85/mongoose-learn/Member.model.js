@@ -7,4 +7,3 @@ var MemberSchema = new Schema({
 });
 
 module.exports = mongoose.model('Member' , MemberSchema);
-
